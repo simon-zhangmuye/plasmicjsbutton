@@ -1,0 +1,296 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
+      "projectApiToken": "DWg4EVpu2l6n6fAdMDCvE22FFoWH1NK3ZmqmXnzezysh5ZWic03cixuobavnSG7W2O29VnLlgnyQp1TAijQ",
+      "projectName": "antd",
+      "version": "1.1.1",
+      "cssFilePath": "plasmic/antd/plasmic_antd.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "kv6Mk_JNYw",
+          "name": "Button",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "iBC45mjTXv",
+          "name": "Slider",
+          "componentImportPath": "@plasmicpkgs/antd"
+        },
+        {
+          "id": "tRueht1jub",
+          "name": "Switch",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "YRr0RPAdEj",
+          "name": "Option",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "Ay1H491feg",
+          "name": "OptGroup",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "2YpGIhkzkpc",
+          "name": "Select",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "yegZ392NLoV",
+          "name": "CollapsePanel",
+          "componentImportPath": "antd/lib/collapse/CollapsePanel"
+        },
+        {
+          "id": "F10gpQ1ZhXY",
+          "name": "Collapse",
+          "componentImportPath": "antd/lib/collapse/Collapse"
+        },
+        {
+          "id": "SAEWraOT2YV",
+          "name": "Checkbox",
+          "componentImportPath": "antd/lib/checkbox/Checkbox"
+        },
+        {
+          "id": "m5zFS-kMOL-",
+          "name": "CheckboxGroup",
+          "componentImportPath": "antd/lib/checkbox/Group"
+        },
+        {
+          "id": "6DZuSUEKjFh",
+          "name": "MenuDivider",
+          "componentImportPath": "antd/lib/menu/MenuDivider"
+        },
+        {
+          "id": "HZ6EmQgIQJr",
+          "name": "MenuItem",
+          "componentImportPath": "antd/lib/menu/MenuItem"
+        },
+        {
+          "id": "LGE6ExNG8fZ",
+          "name": "ItemGroup",
+          "componentImportPath": "rc-menu"
+        },
+        {
+          "id": "DSwQm8gUYob",
+          "name": "SubMenu",
+          "componentImportPath": "antd/lib/menu/SubMenu"
+        },
+        {
+          "id": "Iz_hLKpHZDg",
+          "name": "Menu",
+          "componentImportPath": "antd/lib/menu/index"
+        },
+        {
+          "id": "_C8wcdH3BDp",
+          "name": "Carousel",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "tO9wrxr8Nbb",
+          "name": "Input",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "ZJIPHLoTjkN",
+          "name": "TextArea",
+          "componentImportPath": "antd/lib/input/TextArea"
+        },
+        {
+          "id": "zDcn8vsMldu",
+          "name": "Search",
+          "componentImportPath": "antd/lib/input/Search"
+        },
+        {
+          "id": "fTDg0FM1tnD",
+          "name": "Password",
+          "componentImportPath": "antd/lib/input/Password"
+        },
+        {
+          "id": "uZueUXuqePq",
+          "name": "InputGroup",
+          "componentImportPath": "antd/lib/input/Group"
+        },
+        {
+          "id": "cv59X4q0WK",
+          "name": "Dropdown",
+          "componentImportPath": "@plasmicpkgs/antd"
+        },
+        {
+          "id": "cHUYQj2aKK",
+          "name": "DropdownButton",
+          "componentImportPath": "antd/lib/dropdown/dropdown-button"
+        },
+        {
+          "id": "p3HNI5RglT",
+          "name": "TabPane",
+          "componentImportPath": "rc-tabs"
+        },
+        {
+          "id": "Hb-DVgvuk3",
+          "name": "Tabs",
+          "componentImportPath": "@plasmicpkgs/antd"
+        }
+      ]
+    },
+    {
+      "projectId": "xr9maaNfLrdiXDsDctNCkm",
+      "projectApiToken": "SWRfKkeZvG2gohRUlV2n7KJQXPzK3cYxMFmCk2fWu5zgE7Emq7IBBlRM97yDDnZZUPEIC7wDtZPxow2DHDw",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "t2HmSmvWm3",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "xr9maaNfLrdiXDsDctNCkm",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "CnirdxmO2aC",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "xr9maaNfLrdiXDsDctNCkm",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "FcOIj0_zcs",
+          "name": "Test",
+          "type": "managed",
+          "projectId": "xr9maaNfLrdiXDsDctNCkm",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicTest.jsx",
+          "importSpec": {
+            "modulePath": "Test.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "jY_cDnyICD",
+          "name": "Test2",
+          "type": "managed",
+          "projectId": "xr9maaNfLrdiXDsDctNCkm",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicTest2.jsx",
+          "importSpec": {
+            "modulePath": "Test2.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicTest2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "d9DoAHQj42G",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "wuJcooJjqmr",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "fKiC_O4_T0",
+          "name": "Ellipse2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Ellipse2.jsx"
+        },
+        {
+          "id": "EibyUGCrA9",
+          "name": "Layer1Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Layer1.jsx"
+        },
+        {
+          "id": "SkmPl_fIvXR",
+          "name": "Layer2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Layer2.jsx"
+        },
+        {
+          "id": "rJKjLTUQ4HE",
+          "name": "Layer3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Layer3.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "i_U_tHsNR",
+          "name": "Dark-Blog-Stories_desktop 1",
+          "filePath": "plasmic/blank_project/images/darkBlogStoriesDesktop1.png"
+        },
+        {
+          "id": "xnn59KFLb3",
+          "name": "man-wearing-cap-and-crew-neck-shirt-standing-in-the-middle-2108845 1",
+          "filePath": "plasmic/blank_project/images/manWearingCapAndCrewNeckShirtStandingInTheMiddle21088451.jpeg"
+        },
+        {
+          "id": "dfYXgB0_L3",
+          "name": "man-wearing-cap-and-crew-neck-shirt-standing-in-the-middle-2108845 2",
+          "filePath": "plasmic/blank_project/images/manWearingCapAndCrewNeckShirtStandingInTheMiddle21088452.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "b8vOdIx-F6-",
+        "name": "Screen",
+        "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
+        "contextFilePath": "plasmic/antd/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "w8HSiREcXfk",
+        "name": "Screen",
+        "projectId": "xr9maaNfLrdiXDsDctNCkm",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.170",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.170/dist/plasmic.schema.json"
+}

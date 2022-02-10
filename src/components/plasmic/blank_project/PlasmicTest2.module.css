@@ -1,0 +1,48 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  padding-bottom: 441px;
+  min-width: 0;
+  min-height: 0;
+}
+.antdTabPane__tRdf4:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.antdTabPane___6Cyx7:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.freeBox {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-height: 400px;
+  min-width: 0;
+  padding: 8px;
+}
+.button:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  height: 133px;
+  margin-right: 0px;
+}
+.svg__zwRpY {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__wGtSb {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
