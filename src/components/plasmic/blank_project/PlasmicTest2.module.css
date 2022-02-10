@@ -31,7 +31,6 @@
 .button:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  height: 133px;
   margin-right: 0px;
 }
 .svg__zwRpY {
@@ -45,4 +44,13 @@
   object-fit: cover;
   width: 1em;
   height: 1em;
+}
+.antdButton:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.text {
+  box-shadow: 0px 4px 16px 0px #ce0018cc;
+  border-width: 1px;
+  border-style: solid;
 }

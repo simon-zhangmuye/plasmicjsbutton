@@ -16,6 +16,7 @@ import {
 } from "@plasmicapp/react-web";
 import { TabPane } from "rc-tabs"; // plasmic-import: p3HNI5RglT/codeComponent
 import Button from "../../Button"; // plasmic-import: CnirdxmO2aC/component
+import { Button as Button2 } from "antd"; // plasmic-import: kv6Mk_JNYw/codeComponent
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: xr9maaNfLrdiXDsDctNCkm/projectcss
 import sty from "./PlasmicTest2.module.css"; // plasmic-import: jY_cDnyICD/css
@@ -70,6 +71,24 @@ function PlasmicTest2__RenderFunc(props) {
               showEndIcon={true}
               showStartIcon={true}
             />
+
+            <Button2
+              data-plasmic-name={"antdButton"}
+              data-plasmic-override={overrides.antdButton}
+              className={classNames("__wab_instance", sty.antdButton)}
+            >
+              <div
+                data-plasmic-name={"text"}
+                data-plasmic-override={overrides.text}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text
+                )}
+              >
+                {"Button"}
+              </div>
+            </Button2>
           </div>
         </div>
       </div>
@@ -78,9 +97,11 @@ function PlasmicTest2__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "button"],
-  freeBox: ["freeBox", "button"],
-  button: ["button"]
+  root: ["root", "freeBox", "button", "antdButton", "text"],
+  freeBox: ["freeBox", "button", "antdButton", "text"],
+  button: ["button"],
+  antdButton: ["antdButton", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -114,6 +135,8 @@ export const PlasmicTest2 = Object.assign(
     // Helper components rendering sub-elements
     freeBox: makeNodeComponent("freeBox"),
     button: makeNodeComponent("button"),
+    antdButton: makeNodeComponent("antdButton"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicTest2
     internalVariantProps: PlasmicTest2__VariantProps,
     internalArgProps: PlasmicTest2__ArgProps
